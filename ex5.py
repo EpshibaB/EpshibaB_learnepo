@@ -1,5 +1,5 @@
 import json
-file = open ( ' ex5.json')
+file = open ('ex5.json')
 data = json.load(file)
 ex5 = dict(enumerate(data))
 for key,value in ex5.items():
